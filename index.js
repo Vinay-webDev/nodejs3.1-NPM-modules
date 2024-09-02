@@ -9,7 +9,7 @@
 // type ===>>> npm add or install or i 
 // node i nodemon -g
 //**********************
-console.log("Hello Bro!");
+//console.log("Hello Bro!");
 // to run👇
 // nodemon filename (if the file index.js then no need to write index the nodemon will automatically look for index.js file);
 // wait I got something that preventing to run nodemon 
@@ -21,6 +21,7 @@ console.log("Hello Bro!");
 4. and comeback and run nodemon again it should work (in my case it worked!);
 */
 //so let's try nodemon 
+/*
 console.log("Hi, I'm xian!");
 
 function helloWorld() {
@@ -28,8 +29,10 @@ function helloWorld() {
 }
 
 helloWorld();
+*/
 // to exit nodemon 
-//press control + c;
+//👉👉👉👉press control + c👈👈👈👈
+////////////////////////////////////////////////
 //2. how to install packages for our project 
 // ===>>> inorder to do that first we need to initialize npm 
 // npm init
@@ -38,11 +41,16 @@ helloWorld();
 // so now we need to install the package that we need for our project
 // I'm gonna install date-fns (which is node package for date functions);
 // npm i date-fns
-// we see a new package-lock.json file which we don't wanna touch anything inside****
+//👉👉 we see a new package-lock.json file which we don't wanna touch anything inside****
+// inside package.json now we can see dependencies****
 // and we also see a node_modules folder which is large data dependencies folder
 // It is important to have node_modules under .gitignore file****
 /* I checked my git repo after this and there was no node_modules folder **/
-
+////////////////////////////////////////////////////////////////
+//3. how to install a devDependency
+// let's install nodemon as a devDependency
+//===>>> npm i nodemon --save-dev 
+//👉👉short hand way ===>>> npm i nodemon -D
 
 
 
