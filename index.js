@@ -67,19 +67,24 @@ helloWorld();
 
 ///const date = require('date-fns');
 //just requiring the format from date
+/*
 const { format } = require('date-fns');
 
 console.log(format(new Date() , 'yyyyMMdd\tHH:mm:ss'));
 console.log("hello");
+*/
+///////////////////////////////////////////////////////////
+//Let's install uuid which is production dependency***
+// npm i uuid
 
+const { format } = require('date-fns');
+const { v4: uuid } = require('uuid');
 
+console.log(format(new Date(), 'yyyyMMdd\tHH:mm:ss'));
+console.log(uuid());
 
-
-
-
-
-
-
+console.log("hello");
+console.log();
 
 
 
