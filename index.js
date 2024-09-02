@@ -41,7 +41,7 @@ helloWorld();
 // we see a new package-lock.json file which we don't wanna touch anything inside****
 // and we also see a node_modules folder which is large data dependencies folder
 // It is important to have node_modules under .gitignore file****
-
+/* I checked my git repo after this and there was no node_modules folder **/
 
 
 
