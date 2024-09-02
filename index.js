@@ -1,4 +1,5 @@
 ////////////////////
+//1. how to install package globally*****
 // how to install and setup node or npm packages****
 //install nodemon 
 // nodemon is kinda development server which tracks all the changes done to a file***
@@ -27,8 +28,12 @@ function helloWorld() {
 }
 
 helloWorld();
-
-
+// to exit nodemon 
+//press control + c;
+//2. how to install packages for our project 
+// ===>>> inorder to do that first we need to initialize npm 
+// npm init
+// this will ask us few quetions
 
 
 
