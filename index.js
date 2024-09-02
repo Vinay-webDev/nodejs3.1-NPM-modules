@@ -51,10 +51,18 @@ helloWorld();
 // let's install nodemon as a devDependency
 //===>>> npm i nodemon --save-dev 
 //👉👉short hand way ===>>> npm i nodemon -D
-
-
-
-
+// after installing we can see a nodemon added to devDependencies in package.json file
+////////////////////////////////
+//let's talk about scripts
+// like we do in React like npm run dev 
+// there are like "start" "dev" "build" scripts
+// Let's add "start" and "dev" scripts
+// add "start":"node index"
+// and make "test" ===>>> "dev" (we don't need that "test" script anymore);
+// and have "test":"nodemon index" (worth mentioning you don't have to add index here because nodemon defaults to index anyway);
+// npm start (start is the only word that runs without run keyword); (note: here we don't want to do that because the project is already initialized);
+// npm run dev
+////////////////////////////////////////////////////////////
 
 
 
