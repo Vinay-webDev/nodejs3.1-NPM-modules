@@ -34,8 +34,13 @@ helloWorld();
 // ===>>> inorder to do that first we need to initialize npm 
 // npm init
 // this will ask us few quetions
-
-
+// then we get a new package.json file 
+// so now we need to install the package that we need for our project
+// I'm gonna install date-fns (which is node package for date functions);
+// npm i date-fns
+// we see a new package-lock.json file which we don't wanna touch anything inside****
+// and we also see a node_modules folder which is large data dependencies folder
+// It is important to have node_modules under .gitignore file****
 
 
 
