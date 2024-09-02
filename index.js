@@ -63,6 +63,35 @@ helloWorld();
 // npm start (start is the only word that runs without run keyword); (note: here we don't want to do that because the project is already initialized);
 // npm run dev
 ////////////////////////////////////////////////////////////
+// Let's work with our dependency (date-fns);
+
+///const date = require('date-fns');
+//just requiring the format from date
+const { format } = require('date-fns');
+
+console.log(format(new Date() , 'yyyyMMdd\tHH:mm:ss'));
+console.log("hello");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
