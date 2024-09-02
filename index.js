@@ -85,6 +85,10 @@ console.log(uuid());
 
 console.log("hello");
 console.log();
+//////////////////////////////////////////////////////
+// how to remove or unistall a dependency
+// npm rm nodemon -D (-D is must because it is a devDependency);
+/* also remember this 👉👉👉 just uninstalling a dependency will not change the scripts so it might cause issuses so you need to change it accordingly */
 
 
 
