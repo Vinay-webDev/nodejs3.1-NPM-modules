@@ -19,9 +19,14 @@ console.log("Hello Bro!");
 3. hit enter
 4. and comeback and run nodemon again it should work (in my case it worked!);
 */
+//so let's try nodemon 
+console.log("Hi, I'm xian!");
 
+function helloWorld() {
+    console.log("hello world!");
+}
 
-
+helloWorld();
 
 
 
